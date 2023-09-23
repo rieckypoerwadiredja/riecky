@@ -2020,6 +2020,34 @@ html.no-csstransitions .home-content__main {
   opacity: 1;
 }
 
+/* SKILLLL */
+.list-skill {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.list-skill .detail-skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  flex-shrink: 1;
+  width: 1/3;
+  flex-wrap: wrap;
+}
+
+.list-skill .detail-skill li img {
+  max-width: 50px !important;
+  object-fit: contain;
+}
+
+@media only screen and (min-width: 720px) {
+  .list-skill .detail-skill li img {
+    max-width: 70px !important;
+  }
+}
+
 /* ------------------------------------------------------------------- 
  * ## home animations - (_site-layout.scss) 
  * ------------------------------------------------------------------- */
